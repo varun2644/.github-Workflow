@@ -1,9 +1,9 @@
 <template>
   <div>
-    <h3>Add Todo</h3>
+    <h3>Add Todo List</h3>
     <div class="add">
       <form action="" @submit="onSubmit">
-        <input type="text" v-model="title" placeholder="Add Todo..." />
+        <input type="text" v-model="title" placeholder="Add Todo Text..." />
         <input type="submit" value="Submit" />
       </form>
     </div>
